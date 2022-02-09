@@ -1,0 +1,15 @@
+<h1>Adicionar livros ao Banco MySQL</h1>
+<div class="books-container">
+    <a href="/books">Lista de Livros</a>
+</div>
+<form action="/books/insertbooks" method="POST" class="form">
+    <div class="form-control">
+        <label for="title">Título do Livro: </label>
+        <input type="text" name="title" placeholder="Entre com o título do livro" />
+    </div>
+    <div class="form-control">
+        <label for="pageqty">Quantidade de Páginas:  </label>
+        <input type="number" name="pageqty" placeholder="Quantidade de páginas" />
+    </div>
+    <input type="submit" value="cadastrar">
+</form>
